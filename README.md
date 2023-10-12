@@ -70,7 +70,9 @@ python imgs2poses.py --data_dir ./data/$OBJECT
 ```
 ##### Tips
 如果colmap报以下错误(If colmap reports the following error)
+
 subprocess.CalledProcessError: Command '['colmap', 'feature_extractor', '--database_path', 'data\\fork\\database.db', '--image_path', 'data\\fork\\images', '--ImageReader.single_camera', '1']' returned non-zero exit status 3221225781.
+
 需要首先在终端启动一下colmap，再重复以上命令(You need to start colmap in the terminal first, and then repeat the above command)
 ```
 colmap
